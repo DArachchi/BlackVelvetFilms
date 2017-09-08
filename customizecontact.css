@@ -1,0 +1,100 @@
+@import url("http://fonts.googleapis.com/css?family=Abel");
+
+/* ******************* */
+/* FITTING ADJUSTMENTS */
+/* ******************* */
+ 
+/* default height for <textarea> message field */
+.rev_slider .wpcf7-textarea {height: 200px}
+ 
+/* <textarea> message field height for below desktop viewport */
+@media screen and (max-width: 960px) {.rev_slider .wpcf7-textarea {height: 100px}}
+ 
+/* **************** */
+/* OPTIONAL STYLING */
+/* **************** */
+.label {
+    color: #fff !important;
+}
+ 
+/* form background color */
+.rev_slider .wpcf7 {
+ 
+    background: #333333;
+    padding: 20px 20px 1px;
+ 
+}
+ 
+/* spacing between the label and the field */
+.rev_slider .wpcf7-form-control-wrap {top: 5px}
+ 
+/* text input and textarea fields */
+.rev_slider .wpcf7-text,
+.rev_slider .wpcf7-textarea {
+ 
+    color: #686868;
+    font-family: inherit;
+    background: #f7f7f7;
+    border: 1px solid #d1d1d1;
+    border-radius: 2px;
+    padding: 12px;
+    width: 100%;
+ 
+}
+ 
+/* on-focus styles for text input and textarea fields */
+.rev_slider .wpcf7-text:focus,
+.rev_slider .wpcf7-textarea:focus {
+ 
+    color: #1a1a1a;
+    background-color: #fff;
+    border-color: #007acc;
+    outline: 0 none;
+ 
+}
+ 
+/* submit button */
+.rev_slider .wpcf7-submit {
+ 
+    color: #fff;
+    font-size: 16px;
+    background: #1a1a1a;
+    border: 0 none;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 12px 25px;
+    text-transform: uppercase;
+    margin:auto;
+    text-align:center;
+ 
+}
+ 
+/* submit button on mouseover */
+.rev_slider .wpcf7-submit:focus {
+ 
+    background: #007acc;
+ 
+}
+ 
+/* **************** */      
+/*    Custom CSS    */
+/* **************** */
+
+/* box containing all text*/
+.text-div {
+    color: #ffffff;
+    float:left;
+    font-family=abel;
+    margin-bottom: 20px;
+}
+      
+/* company name */
+.company {
+    font-size=20;
+}
+      
+/* contact title */
+.contact {
+    font-size: 18;
+    font-weight:bold;
+}
